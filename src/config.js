@@ -1,3 +1,3 @@
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://backend-todolist-3lir.onrender.com";
 
 export default BACKEND_URL;

@@ -25,7 +25,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`${BACKEND_URL}/auth/register`, {
+      await axios.post(``, {
         username,
         password,
       });
